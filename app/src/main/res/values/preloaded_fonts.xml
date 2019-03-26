@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/audiowide</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/courgette</item>
+        <item>@font/days_one</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/holtwood_one_sc</item>
+    </array>
+</resources>

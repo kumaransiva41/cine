@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgcust"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/we7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvfoodname"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/bangers"
+            android:text="TextView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/bangers"
+            android:text="TextView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvveg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/bangers"
+            android:text="TextView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btmin"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvquant"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/bangers"
+            android:text="0"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btplus"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

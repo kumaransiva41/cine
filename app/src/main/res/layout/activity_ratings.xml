@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foood"
+    tools:context=".Ratings">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/audiowide"
+        android:text="MOVIE RATINGS"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="movie.ticket.cinemaparadiso.rating"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/audiowide"
+        android:text="UPCOMING MOVIES"
+        android:textColor="@android:color/background_dark" />
+
+    <Spinner
+        android:id="@+id/upco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView47"
+        android:layout_marginTop="0dp" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="movie.ticket.cinemaparadiso.interested"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/upco" />
+
+
+</RelativeLayout>

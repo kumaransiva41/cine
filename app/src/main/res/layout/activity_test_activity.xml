@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+   android:background="@drawable/we7"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestACtivity">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="Total Price in Rupees"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:fontFamily="@font/audiowide"
+        android:text="Proceed for Payment"
+        android:onClick="toSign"
+
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/audiowide"
+        android:text="SNACKS"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/audiowide"
+        android:text="DRINKS"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="99dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/audiowide"
+        android:text="BEST SELLERS"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/audiowide"
+        android:text="TRADITIONAL"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp">
+
+    </ListView>
+
+</LinearLayout>
